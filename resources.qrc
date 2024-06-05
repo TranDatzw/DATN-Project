@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/menu-4-512.png</file>
+    <file>icon/account-logout-512.png</file>
+    <file>icon/activity-feed-512 (1).png</file>
+    <file>icon/activity-feed-512.png</file>
+    <file>icon/dashboard-512 (1).png</file>
+    <file>icon/group-512 (1).png</file>
+    <file>icon/home-4-512 (1).png</file>
+    <file>icon/product-512 (1).png</file>
+    <file>icon/question-mark-512.png</file>
+    <file>icon/dashboard-512.png</file>
+    <file>icon/group-512.png</file>
+    <file>icon/home-4-512.png</file>
+    <file>icon/product-512.png</file>
+    <file>icon/purchase-order-512.png</file>
+    <file>icon/search-3-512.png</file>
+    <file>icon/user-512.png</file>
+    <file>icon/x-mark-3-512.png</file>
+  </qresource>
+</RCC>

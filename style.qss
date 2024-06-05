@@ -1,0 +1,142 @@
+/*= Style for mainwindow START
+  ==================================================== */
+	#MainWindow {
+		background-color: #fff;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for button login
+  ==================================================== */
+	/* style for QPushButton */
+	#btn_signin,
+    #btn_register,
+	#btn_logout,
+	#btn_password_c,
+	#btn_create {
+        border: none;
+        border-radius: 3px;
+        padding: 8px 0 8px 15px;
+        color: white;
+		background-color: #788596;
+    }
+
+    #btn_signin:hover,
+    #btn_register:hover,
+	#btn_logout:hover,
+	#btn_password_c:hover,
+	#btn_create:hover {
+		color: black;
+        background-color: rgba(86, 101, 115, 0.5);
+    }
+
+    #btn_signin:checked,
+    #btn_register:checked,
+	#btn_logout:checked,
+	#btn_password_c:checked,
+	#btn_create:checked {
+        color: #fff;
+    }
+/*= END
+  ==================================================== */
+
+/*= Style for header widget START
+  ==================================================== */
+	#widget {
+		background-color: #f9fafd;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon only START
+  ==================================================== */
+  	/* style for widget */
+	#icon_only_widget {
+		background-color: #313a46;
+		width:50px;
+	}
+
+    /* style for QPushButton and QLabel */
+	#icon_only_widget QPushButton, QLabel {
+		height:50px;
+		border:none;
+		/* border-bottom: 1px solid #b0b0b0; */
+	}
+
+	#icon_only_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	/* style for logo image */
+	#lb_textlogo {
+		color: white;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon and text START
+  ==================================================== */
+	/* style for widget */
+	#full_menu_widget {
+		background-color: #313a46;
+	}
+
+	/* style for QPushButton */
+	#full_menu_widget QPushButton {
+		border:none;
+		border-radius: 3px;
+		text-align: left;
+		padding: 8px 0 8px 15px;
+		color: #788596;
+	}
+
+	#full_menu_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#full_menu_widget QPushButton:checked {
+		color: #fff;
+	}
+
+	/* style for logo image */
+	#lb_logo_2 {
+		padding: 5px;
+		color: #fff;
+	}
+
+	/* style for APP title */
+	#lb_logo_3 {
+		padding-right: 10px;
+		color: #fff;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for search button START
+  ==================================================== */
+	#btn_search {
+		border: none;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for search input START
+  ==================================================== */
+	#input_search {
+		border: none;
+		padding: 5px 10px;
+	}
+
+	#input_search:focus {
+		background-color: #70B9FE;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for user information button START
+  ==================================================== */
+	#btn_user {
+		border: none;
+	}
+/*= END
+  ==================================================== */

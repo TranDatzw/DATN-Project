@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QWidget" name="full_menu_widget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="lb_logo">
+           <property name="minimumSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/icon/icon/question-mark-512.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lb_textlogo">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Cashier</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="btn_home">
+           <property name="text">
+            <string> Home</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icon/icon/home-4-512.png</normaloff>
+             <normalon>:/icon/icon/home-4-512 (1).png</normalon>:/icon/icon/home-4-512.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>14</width>
+             <height>14</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_camera">
+           <property name="text">
+            <string> Camera</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icon/icon/dashboard-512.png</normaloff>
+             <normalon>:/icon/icon/dashboard-512 (1).png</normalon>:/icon/icon/dashboard-512.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>14</width>
+             <height>14</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_order">
+           <property name="text">
+            <string> Orders</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icon/icon/activity-feed-512.png</normaloff>
+             <normalon>:/icon/icon/activity-feed-512 (1).png</normalon>:/icon/icon/activity-feed-512.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>14</width>
+             <height>14</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_account">
+           <property name="text">
+            <string> Account</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icon/icon/group-512.png</normaloff>
+             <normalon>:/icon/icon/group-512 (1).png</normalon>:/icon/icon/group-512.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>14</width>
+             <height>14</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>334</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_exit">
+         <property name="text">
+          <string>Exit</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resources.qrc">
+           <normaloff>:/icon/icon/x-mark-3-512.png</normaloff>:/icon/icon/x-mark-3-512.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>14</width>
+           <height>14</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>192</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <property name="spacing">
+             <number>10</number>
+            </property>
+            <item>
+             <widget class="QLineEdit" name="input_search">
+              <property name="placeholderText">
+               <string>Search...</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_search">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/icon/icon/search-3-512.png</normaloff>:/icon/icon/search-3-512.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>14</width>
+                <height>14</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>192</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="currentIndex">
+          <number>3</number>
+         </property>
+         <widget class="QWidget" name="home_page">
+          <widget class="QPushButton" name="btn_signin">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>370</y>
+             <width>201</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+             <bold>true</bold>
+             <kerning>true</kerning>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btn_login{
+background-color:rgba(2, 65, 118, 255);
+color:rgba(255, 255, 255, 200);
+border radius:5px;
+}
+QPushButton#btn_login:pressed{ 
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(2, 65, 118, 100);
+background-position:calc(100% - 10px)center;
+}
+QPushButton#btn_login:hover{
+ background-color.rgba(2,65, 118, 200);
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Sign In</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lb_password">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>310</y>
+             <width>201</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+border-bottom-color: rgba(48, 82, 101, 255);
+color: rgb(0, 0, 0);
+padding-bottom:7px</string>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>Password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lb_username">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>250</y>
+             <width>201</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+border-bottom-color: rgba(48, 82, 101, 255);
+color: rgb(0, 0, 0);
+padding-bottom:7px
+</string>
+           </property>
+           <property name="placeholderText">
+            <string>User Name</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lb_logo_login">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>20</y>
+             <width>201</width>
+             <height>191</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/icon/icon/user-512.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_register">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>430</y>
+             <width>201</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btn_login{
+background-color:rgba(2, 65, 118, 255);
+color:rgba(255, 255, 255, 200);
+border radius:5px;
+}
+QPushButton#btn_login:pressed{ 
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(2, 65, 118, 100);
+background-position:calc(100% - 10px)center;
+}
+QPushButton#btn_login:hover{
+ background-color.rgba(2,65, 118, 200);
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Register</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="camera_page">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <widget class="QWidget" name="layoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>0</y>
+             <width>831</width>
+             <height>481</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="0" colspan="2">
+             <widget class="QLabel" name="lb_cv2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>539</width>
+                <height>349</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+background-color: rgb(83, 83, 83);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QPushButton" name="btn_recognition">
+              <property name="text">
+               <string>Recognition</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QPushButton" name="btn_get_bill">
+              <property name="text">
+               <string>Get bill</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QPushButton" name="btn_start">
+              <property name="text">
+               <string>Start</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QPushButton" name="btn_stop">
+              <property name="text">
+               <string>Stop</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="product_page">
+          <widget class="QTableWidget" name="table_widget">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>10</y>
+             <width>811</width>
+             <height>381</height>
+            </rect>
+           </property>
+           <column>
+            <property name="text">
+             <string>ID</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>PRODUCT NAME</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>PRICE</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QWidget" name="layoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>400</y>
+             <width>811</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QPushButton" name="btn_search_tb">
+              <property name="minimumSize">
+               <size>
+                <width>300</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Search</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="edit_search_tb">
+              <property name="placeholderText">
+               <string>Enter the product name</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="layoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>440</y>
+             <width>811</width>
+             <height>26</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QPushButton" name="btn_show">
+              <property name="text">
+               <string>Show</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_cgPrice">
+              <property name="text">
+               <string>Change Price</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_insert">
+              <property name="text">
+               <string>INSERT</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_delete">
+              <property name="text">
+               <string>DELETE</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_6">
+          <widget class="QLabel" name="lb_account">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>80</y>
+             <width>215</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Change Password</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lb_old_password_c">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>230</y>
+             <width>211</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+border-bottom-color: rgba(48, 82, 101, 255);
+color: rgb(0, 0, 0);
+padding-bottom:7px</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>Old Password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lb_username_c">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>150</y>
+             <width>211</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+border-bottom-color: rgba(48, 82, 101, 255);
+color: rgb(0, 0, 0);
+padding-bottom:7px
+</string>
+           </property>
+           <property name="placeholderText">
+            <string>User Name</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lb_new_password_c">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>300</y>
+             <width>211</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+border-bottom-color: rgba(48, 82, 101, 255);
+color: rgb(0, 0, 0);
+padding-bottom:7px</string>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>New Password</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_password_c">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>380</y>
+             <width>211</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Done</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_7">
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="0" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="lb_search">
+             <property name="font">
+              <font>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Search Page</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page">
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>70</y>
+             <width>201</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Create Account</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lb_username_rg">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>140</y>
+             <width>201</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+border-bottom-color: rgba(48, 82, 101, 255);
+color: rgb(0, 0, 0);
+padding-bottom:7px</string>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+           <property name="placeholderText">
+            <string>Username</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lb_password_rg">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>220</y>
+             <width>201</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+border-bottom-color: rgba(48, 82, 101, 255);
+color: rgb(0, 0, 0);
+padding-bottom:7px</string>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>Password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lb_password_rga">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>300</y>
+             <width>201</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
+border-bottom-color: rgba(48, 82, 101, 255);
+color: rgb(0, 0, 0);
+padding-bottom:7px</string>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>Password Again</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btn_create">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>380</y>
+             <width>201</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btn_login{
+background-color:rgba(2, 65, 118, 255);
+color:rgba(255, 255, 255, 200);
+border radius:5px;
+}
+QPushButton#btn_login:pressed{ 
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(2, 65, 118, 100);
+background-position:calc(100% - 10px)center;
+}
+QPushButton#btn_login:hover{
+ background-color.rgba(2,65, 118, 200);
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Done</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_2">
+          <widget class="QPushButton" name="btn_logout">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>330</y>
+             <width>201</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btn_login{
+background-color:rgba(2, 65, 118, 255);
+color:rgba(255, 255, 255, 200);
+border radius:5px;
+}
+QPushButton#btn_login:pressed{ 
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(2, 65, 118, 100);
+background-position:calc(100% - 10px)center;
+}
+QPushButton#btn_login:hover{
+ background-color.rgba(2,65, 118, 200);
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Logout</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lb_logo_logout">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>100</y>
+             <width>201</width>
+             <height>191</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/icon/icon/user-512.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btn_exit</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>99</x>
+     <y>15</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
