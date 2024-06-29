@@ -87,7 +87,7 @@ void setup() {
   lcd.setCursor(1, 0); // set cursor to first row
   lcd.print("Digital Scale "); // print out to LCD
   lcd.setCursor(0, 1); // set cursor to first row
-  lcd.print(" 5KG MAX LOAD "); // print out to LCD
+  lcd.print(" 40KG MAX LOAD "); // print out to LCD
   delay(3000);
   lcd.clear();
 }
