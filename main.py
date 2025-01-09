@@ -223,18 +223,19 @@ class MainWindow(QMainWindow):
     def get_weight(self):
         weight = 0.33333333333333333333333
         return round(weight, 3)
-        # flag_weight = False #co thoat
+        # flag_weight = False  # Cờ để kiểm tra xem đã nhận được giá trị trọng lượng hay chưa
+        # ser.reset_input_buffer()  # Xóa dữ liệu còn lại trong bộ đệm của cổng Serial
         # while True:
         #     if ser.in_waiting > 0:
         #         data = ser.readline().decode().strip()
         #         if data:
         #             serial_weight = float(data)
-        #             print("Received data:", serial_weight)
+        #             #print("Received data:", serial_weight)
         #             flag_weight = True
-        #             return serial_weight
+        #             continue  # Tiếp tục vòng lặp để đọc và xử lý tất cả dữ liệu còn lại
         #     if flag_weight:
         #         break
-        # return serial_weight
+        # return serial_weight  # Trả về giá trị trọng lượng cuối cùng
 
     def Note_Price(self, id, prediction):
         Form = QtWidgets.QWidget()
